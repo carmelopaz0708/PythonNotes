@@ -3,38 +3,47 @@ PRINT FUNCTION
 
 The PRINT function is a commonly used function in Python. PRINT outputs the variable or string written inside its (). Its primary use is in debugging programs, as print allows the
 user to check the program's behaviour.
+
+Special characters can be used inside "". These are escape characters (such as \' and \") and special characters (such as \t, \n, etc.) The description is listed below:
+    \' - Ignores the preceeding '
+    \" - Ignores the preceeding "
+    \t - Tabulation, indents the string
+    \r - Carriage Return, places the cursor back to home
+    \n - Newline Character, generates a newline with carriage return
+    \b - Backspace, generates a backspace
+    \a - Alarm, generates an alarm sound (only if hardware enabled)
+
+@auth siege
+@rev 02/28/19
 """
 
 print("\nExample 1:Print function")
-print("The characters inside the \"\" or \'\' are printed to the console.")
+print("This string is printed to the console")
 
-print("\nExample 2: Newline")
-print("Use \\n to print Strings in a new line.")
+print("\nExample 2: String Concatenation")
+# The '+' sign is used to join two strings together. The * is used to print a string multiple times.
+print("This whole string is made up of " + "two different strings that were concatenated.")
+print("This string is printed three times. " * 3)
 
-print("\nExample 3: Tabulation")
-print("\tThis statement has been tabulated using \\t")
-
-print("\nExample 4: Homogeneous variable concatenation (String variables only)")
-print('This' + ' string' + ' is' + ' concatenated.')
-
-print("\nExample 5: Mixed variable concatenation (integers and strings combined):")
-var1 = 2    # Variable data types are automatically detected in Python
+print("\nExample 3: Mixed Variable Concatenation: ")
+# Concatenating a string and a number uses the comma operator. This results in a string.
+# Note that the same result can also be obtained via print formatting
+var1 = 2    # Variable data types are automatically detected in Python (no need to initialize type data)
 var2 = 3
 sumVar = var1 + var2
 print(var1, " + ", var2, " = ", sumVar)
 
-print("\nExample 6: Print formatting")
-# Organizes printing mixed variables
+print("\nExample 4: Print Formatting")
+# This is a cleaner way to format your print statements. Works with strings, numbers and mixed types.
+# The curly brace becomes the string placeholder. Statements inside the format will be printed in order.
 print("{} {} {}{}".format("You can print", "like this too and still look", 100, "%."))
 
-print("\nExample 7: Escape characters")
-print('The \ is an escape character that ignores the succeeding \', \" or \\. For example, \"this is a quote\".')
-
-print("\nExample 8: Raw string")
-# Add r before the "" or '' inside the print statement to print as raw string. Useful for printing directories like C:\Documents\Python
+print("\nExample 5: Raw string")
+# Raw string prints the string as a whole, ignoring special and escape characters. This is useful for printing file directories and addresses.
+# To print a raw string, attach an r before the string inside the print function.
 print(r"Raw string prints the statement whole and ignores special characters. \t, \n, \\ and others are ignored.")
 
-print("\nExample 9: Data type")
+print("\nExample 6: Data type")
 # Using type() displays the variable's data type. Can be used with any variable
 unknown1 = 12
 unknown2 = 12.2
