@@ -42,12 +42,3 @@ print("\nExample 5: Raw string")
 # Raw string prints the string as a whole, ignoring special and escape characters. This is useful for printing file directories and addresses.
 # To print a raw string, attach an r before the string inside the print function.
 print(r"Raw string prints the statement whole and ignores special characters. \t, \n, \\ and others are ignored.")
-
-print("\nExample 6: Data type")
-# Using type() displays the variable's data type. Can be used with any variable
-unknown1 = 12
-unknown2 = 12.2
-unknown3 = 'abc'
-print(type(unknown1))
-print(type(unknown2))
-print(type(unknown3))
