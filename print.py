@@ -1,20 +1,18 @@
 """
 PRINT FUNCTION
-
-The PRINT function is a commonly used function in Python. PRINT outputs the variable or string written inside its (). Its primary use is in debugging programs, as print allows the
+  The PRINT function is a commonly used function in Python. PRINT outputs the variable or string written inside its (). Its primary use is in debugging programs, as print allows the
 user to check the program's behaviour.
-
-Special characters can be used inside "". These are escape characters (such as \' and \") and special characters (such as \t, \n, etc.) The description is listed below:
-    \' - Ignores the preceeding '
-    \" - Ignores the preceeding "
-    \t - Tabulation, indents the string
-    \r - Carriage Return, places the cursor back to home
-    \n - Newline Character, generates a newline with carriage return
-    \b - Backspace, generates a backspace
-    \a - Alarm, generates an alarm sound (only if hardware enabled)
+  Special characters can be used inside "". These are escape characters (such as \' and \") and special characters (such as \t, \n, etc.) The description is listed below:
+  \' - Ignores the preceeding '
+  \" - Ignores the preceeding "
+  \t - Tabulation, indents the string
+  \r - Carriage Return, places the cursor back to home
+  \n - Newline Character, generates a newline with carriage return
+  \b - Backspace, generates a backspace
+  \a - Alarm, generates an alarm sound (only if hardware enabled)
 
 @auth siege
-@rev 02/28/19
+@init 02/28/19
 """
 
 print("\nExample 1:Print function")
