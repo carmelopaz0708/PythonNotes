@@ -1,6 +1,6 @@
 """
 MATH
-Python can perform various mathematical functions. The basic arithmetic operators (+, -, *, /, %) function the same as with any other programming language. Other math functions native only to Python include the exponent (**) and the floor division operator (//). The function type() is not a math function but a builtin Python function that outputs to the console the data type inside the (). This is a useful tool for debugging when you are unsure of what data type you're dealing with.
+  Python can perform various mathematical functions. The basic arithmetic operators (+, -, *, /, %) function the same as with any other programming language. Other math functions native only to Python include the exponent (**) and the floor division operator (//). The function type() is not a math function but a builtin Python function that outputs to the console the data type inside the (). This is a useful tool for debugging when you are unsure of what data type you're dealing with.
 
 @auth siege
 @rev 09/15/18
