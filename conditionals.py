@@ -1,11 +1,11 @@
 """
 CONDITIONAL STATEMENTS
-Conditional statements enable programs to make decisions. These are blocks of code that perform specific tasks when a certain condition is satisfied. These tasks can either perform
+  Conditional statements enable programs to make decisions. These are blocks of code that perform specific tasks when a certain condition is satisfied. These tasks can either perform
 once or multiple times(recursion), depending on the type of conditional statement used. Conditional statements are very powerful and proper utilization of these lines of codes can
 drastically decrease code memory, allowing for faster processes.
 
 @siege
-@rev 12/13/18
+@init 12/13/18
 """
 
 print("\nExample 1: The if-elif-else statement")
